@@ -1,0 +1,65 @@
+[
+  {
+    "id": 1,
+    "name": "RM",
+    "fullName": "Kim Nam-joon",
+    "role": "Leader, Main Rapper",
+    "birthday": "1994-09-12",
+    "isMarried": false,
+    "photo": "./src/assets/images/rm.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Jin",
+    "fullName": "Kim Seok-jin",
+    "role": "Sub Vocalist, Visual",
+    "birthday": "1992-12-04",
+    "isMarried": false,
+    "photo": "./src/assets/images/jin.jpg"
+  },
+  {
+    "id": 3,
+    "name": "SUGA",
+    "fullName": "Min Yoon-gi",
+    "role": "Lead Rapper",
+    "birthday": "1993-03-09",
+    "isMarried": false,
+    "photo": "./src/assets/images/suga.jpg"
+  },
+  {
+    "id": 4,
+    "name": "j-hope",
+    "fullName": "Jung Ho-seok",
+    "role": "Main Dancer, Sub Rapper, Sub Vocalist",
+    "birthday": "1994-02-18",
+    "isMarried": false,
+    "photo": "./src/assets/images/j-hope.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Jimin",
+    "fullName": "Park Ji-min",
+    "role": "Main Dancer, Lead Vocalist",
+    "birthday": "1995-10-13",
+    "isMarried": false,
+    "photo": "./src/assets/images/jimin.jpg"
+  },
+  {
+    "id": 6,
+    "name": "V",
+    "fullName": "Kim Tae-hyung",
+    "role": "Lead Dancer, Lead Vocalist, Visual",
+    "birthday": "1995-12-30",
+    "isMarried": false,
+    "photo": "./src/assets/images/v.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Jungkook",
+    "fullName": "Jeon Jung-kook",
+    "role": "Main Vocalist, Lead Dancer, Sub Rapper, Center, Maknae",
+    "birthday": "1997-09-01",
+    "isMarried": false,
+    "photo": "./src/assets/images/jungkook.jpg"
+  }
+]
