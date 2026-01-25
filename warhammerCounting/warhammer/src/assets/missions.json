@@ -1,0 +1,176 @@
+{
+  "primaryMissions": [
+    {
+      "id": "purge",
+      "name": "PURGE THE FOE",
+      "description": "Exterminate the enemy. Each player scores 4VP if one or more enemy units were destroyed. From round 2: 4VP if more enemy units than friendly were destroyed. Also score 4VP for controlling objectives (8VP if more than opponent).",
+      "details": "ANY BATTLE ROUND: End of round, score 4VP for destroyed units. SECOND BATTLE ROUND+: Score 4VP for efficiency and 4-8VP for objectives."
+    },
+    {
+      "id": "linchpin",
+      "name": "LINCHPIN",
+      "description": "True victory is built upon a firm foundation. Control the centre or hold your deployment zone.",
+      "details": "SECOND BATTLE ROUND+: 3VP for each objective if DZ marker is NOT controlled. 3VP for DZ + 5VP for each other marker if DZ IS controlled (max 15VP)."
+    },
+    {
+      "id": "scorched",
+      "name": "SCORCHED EARTH",
+      "description": "What cannot be secured must be burned to ash. Action: Burn Objective (Shooting phase, Round 2+).",
+      "details": "5VP for burning in No Man's Land, 10VP in Opponent's DZ. 5VP per controlled objective (max 10VP)."
+    },
+    {
+      "id": "ordnance",
+      "name": "UNEXPLODED ORDNANCE",
+      "description": "Move Hazard objective markers towards enemy territory. Action: Move Hazard (Shooting phase).",
+      "details": "Score 8VP/5VP/2VP based on how deep the Hazard marker is in the opponent's territory."
+    },
+    {
+      "id": "supply",
+      "name": "SUPPLY DROP",
+      "description": "Supplies inbound. Alpha removed Round 4, all others Round 5 except Omega.",
+      "details": "Round 2-3: 5VP per objective. Round 4: 8VP. Round 5: 15VP."
+    },
+    {
+      "id": "terraform",
+      "name": "TERRAFORM",
+      "description": "Dominate the landscape. Action: Terraform (Shooting phase, Round 2+).",
+      "details": "4VP for each objective controlled + 2VP for each terraformed marker (max 15VP)."
+    },
+    {
+      "id": "burden",
+      "name": "BURDEN OF TRUST",
+      "description": "Guard the strategic prizes. Units can be assigned to guard objectives.",
+      "details": "4VP for objectives outside DZ. Opponent scores 2VP for units guarding objectives."
+    },
+    {
+      "id": "take_hold",
+      "name": "TAKE AND HOLD",
+      "description": "Secure identified strategic locations and hold them at any cost.",
+      "details": "SECOND BATTLE ROUND+: 5VP for each objective marker controlled (up to 15VP)."
+    },
+    {
+      "id": "ritual",
+      "name": "THE RITUAL",
+      "description": "Race to finish a ritual. Action: The Ritual (Shooting phase) to set up new markers.",
+      "details": "SECOND BATTLE ROUND+: 5VP for each objective in No Man's Land (up to 15VP)."
+    }
+  ],
+ "secondaryMissions": [
+    {
+      "name": "ASSASSINATION",
+      "goal": "Identify and eliminate enemy champions. Score when CHARACTER models are destroyed.",
+      "vp": "Fixed: 4VP per character. Tactical: 5VP if 1+ destroyed this turn (or all destroyed during battle)."
+    },
+    {
+      "name": "BEHIND ENEMY LINES",
+      "goal": "Break through and reach opponent's deployment zone. (Exclude AIRCRAFT/Battle-shocked).",
+      "vp": "1 unit in enemy DZ: 3VP. 2+ units in enemy DZ: 4VP."
+    },
+    {
+      "name": "BRING IT DOWN",
+      "goal": "Destroy enemy MONSTER or VEHICLE units.",
+      "vp": "2VP per unit + extra VP for high Wounds (15+ Wounds: +2VP, 20+ Wounds: +4VP total)."
+    },
+    {
+      "name": "STORM HOSTILE OBJECTIVE",
+      "goal": "Control objective markers that were held by the opponent at the start of the turn.",
+      "vp": "4VP if you capture a hostile objective marker."
+    },
+    {
+      "name": "CULL THE HORDE",
+      "goal": "Destroy high-model-count or high-wound INFANTRY units.",
+      "vp": "5VP per unit destroyed (Starting Strength 20+, 25+ Wounds, or 20+ points cost models)."
+    },
+    {
+      "name": "RECOVER ASSETS",
+      "goal": "ACTION: Shooting phase. Units in DZ, No Man's Land, or Enemy DZ recover assets.",
+      "vp": "2 units recover: 3VP. 3 units recover: 6VP."
+    },
+    {
+      "name": "AREA DENIAL",
+      "goal": "Dominate the centre of the battlefield. No enemy units allowed within range.",
+      "vp": "Unit within 3\" of centre: 2VP. Unit within 3\" and NO enemies within 6\": 5VP."
+    },
+    {
+      "name": "SECURE NO MAN’S LAND",
+      "goal": "Advance and seize objectives in No Man’s Land.",
+      "vp": "Control 1 marker: 2VP. Control 2+ markers: 5VP."
+    },
+    {
+      "name": "CONTAINMENT",
+      "goal": "ACTION: Shooting phase. Units within 9\" of battlefield edges (not in your DZ).",
+      "vp": "3VP per battlefield edge contained (Up to 6VP)."
+    },
+    {
+      "name": "MARKED FOR DEATH",
+      "goal": "Opponent selects 3 units. Destroy the selected units.",
+      "vp": "5VP if one or more selected units were destroyed this turn."
+    },
+    {
+      "name": "NO PRISONERS",
+      "goal": "Exterminate your enemies. Destroy units.",
+      "vp": "2VP per enemy unit destroyed (Up to 5VP)."
+    },
+    {
+      "name": "DEFEND STRONGHOLD",
+      "goal": "Control one or more objective markers in your deployment zone (Round 2 onwards).",
+      "vp": "End of opponent's turn: 3VP."
+    },
+    {
+      "name": "SABOTAGE",
+      "goal": "ACTION: Shooting phase. Unit within terrain (not in your DZ).",
+      "vp": "Commit sabotage: 3VP. Commit sabotage in enemy DZ: 6VP."
+    },
+    {
+      "name": "OVERWHELMING FORCE",
+      "goal": "Destroy enemy units that started the turn within range of an objective marker.",
+      "vp": "3VP per unit destroyed (Up to 5VP)."
+    },
+    {
+      "name": "EXTEND BATTLE LINES",
+      "goal": "Control objectives in your DZ AND No Man's Land.",
+      "vp": "Control both: 5VP. Only 1 unit on field controlling No Man's Land: 2VP."
+    },
+    {
+      "name": "ENGAGE ON ALL FRONTS",
+      "goal": "Units in different table quarters (6\" away from centre).",
+      "vp": "3 quarters: 2VP. 4 quarters: 4VP."
+    },
+    {
+      "name": "ESTABLISH LOCUS",
+      "goal": "ACTION: Shooting phase. Set up locus in centre or enemy DZ.",
+      "vp": "Center: 2VP. Enemy DZ: 4VP."
+    },
+    {
+      "name": "CLEANSE",
+      "goal": "ACTION: Shooting phase. Cleanse objective markers not in your DZ.",
+      "vp": "1 marker: 2VP. 2+ markers: 4VP."
+    }
+  ],
+"deployments": [
+    {
+      "name": "TIPPING POINT",
+      "picture": "./src/assets/dep1.png"
+    },
+    {
+      "name": "SWEEPING ENGAGEMENT",
+      "picture": "./src/assets/dep1.png"
+    },
+    {
+      "name": "SEARCH AND DESTROY",
+      "picture": "./src/assets/dep1.png"
+    },
+    {
+      "name": "HAMMER AND ANVIL",
+      "picture": "./src/assets/dep1.png"
+    },
+    {
+      "name": "DAWN OF WAR",
+      "picture": "./src/assets/dep1.png"
+    },
+    {
+      "name": "CRUCIBLE OF BATTLE",
+      "picture": "./src/assets/dep1.png"
+    }
+  ]
+}

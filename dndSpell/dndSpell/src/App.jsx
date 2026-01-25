@@ -47,8 +47,7 @@ const displaySpells = spells.filter(s => {
   const matchesSchool = school === "" || s.school.name.toLowerCase() === school.toLowerCase();
   return matchesName && matchesSchool;
 });
-const hideSelect = () => {setClicked("")};
-const openMoreInfo = (spell) =>{setClicked(spell)}
+
 
   return (
     <>
