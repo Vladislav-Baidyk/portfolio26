@@ -1,0 +1,35 @@
+{
+    "text": [
+    {
+      "id": "webby",
+      "header": "webby",
+      "contentText": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout",
+      "logo" : "/public/webby.jpg"
+    },
+    {
+      "id": "iceland",
+      "header": "iceland",
+      "contentText": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout",
+      "logo" : "/public/iceland.jpg"
+    },
+    {
+      "id": "cowboy",
+      "header": "cowboy",
+      "contentText": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout",
+      "logo" : "/public/cowboy.jpg"
+    },
+    {
+      "id": "kfc",
+      "header": "kfc",
+      "contentText": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout",
+      "logo" : "/public/kfc.jpg"
+    },
+    {
+      "id": "team",
+      "header": "team",
+      "contentText": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout",
+      "logo" : "/public/team.jpg"
+    }
+  ]
+    
+}

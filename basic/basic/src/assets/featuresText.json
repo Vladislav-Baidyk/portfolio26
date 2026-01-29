@@ -1,0 +1,29 @@
+{
+    "text": [
+    {
+      "id": "google",
+      "header": "Google",
+      "contentText": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English ",
+      "logo" : "/google.png"
+    },
+    {
+      "id": "kfc",
+      "header": "KFC",
+      "contentText": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English ",
+      "logo" : "/food.png"
+    },
+    {
+      "id": "wilson",
+      "header": "Wilson",
+      "contentText": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English ",
+      "logo" : "/ball-of-basketball.png"
+    },
+    {
+      "id": "ubisoft",
+      "header": "Ubisoft",
+      "contentText": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English ",
+      "logo" : "/ubisoft.png"
+    }
+  ]
+    
+}

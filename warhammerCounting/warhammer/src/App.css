@@ -154,13 +154,13 @@ body{
 .left-container{
   display: flex;
   flex-direction: column;
-  gap: 0.3rem;
+  gap: 0.1rem;
 }
 .right-container{
-  margin-top: 7rem;
+  margin-top: 6.6rem;
   display: flex;
   flex-direction: column;
-  gap: 0.3rem;
+  gap: 1.3rem;
 }
 .name-fraction{
   background: none;
@@ -225,6 +225,49 @@ body{
     background:  rgba(37, 164, 214, 0.572);
     box-shadow: 6px 5px 10px  rgba(37, 164, 214, 0.938);
     border: 2px solid rgba(37, 164, 214, 0.918);
+}
+.card-container-mini {
+  perspective: 1000px;
+  height: 30px;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+.card-container-mini .card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.5s;
+  transform-style: preserve-3d;
+}
+
+.card-container-mini.flipped .card-inner {
+  transform: rotateX(180deg);
+}
+
+.card-front-mini, .card-back-mini {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+  border-radius: 5px;
+  font-size: 0.9rem;
+}
+
+.card-front-mini {
+  background: rgba(255, 255, 255, 0.1);
+  color: aqua;
+  border: 1px solid rgba(0, 255, 255, 0.3);
+}
+
+.card-back-mini {
+  background: rgba(37, 164, 214, 0.2);
+  color: white;
+  transform: rotateX(180deg);
+  border: 1px solid rgba(255, 255, 255, 0.1);
 }
 @media  screen and (max-width:480px) {
   .main{

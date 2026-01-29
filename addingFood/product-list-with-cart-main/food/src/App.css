@@ -1,0 +1,40 @@
+body{
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  min-height: 100vh;
+}
+.container{
+  display: flex;
+  width: 80%;
+  justify-content: center;
+  align-items: center;
+}
+/* left part*/
+.left-part{
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+.content-left-part{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.container-product{
+  display: flex;
+  flex-direction: column;
+  width: 13rem;
+}
+.image{
+  height: 13rem;
+}
+.desktop{
+  display: flex;
+}
+.tablet {
+  display: none;
+}
+.mobile{
+  display: none;
+}

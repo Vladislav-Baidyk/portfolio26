@@ -1,0 +1,15 @@
+{
+    "background":"/pexels-amaurymic-14896178.jpg",
+  "threePhotos": [
+    { "url": "/pexels-anastasiia-chaikovska-206547003-27667393.jpg" },
+    { "url": "/pexels-shndgd-30665236.jpg" },
+    { "url": "/pexels-allen-boguslavsky-1344061-29257597.jpg" }
+  ],
+  "logo" : "/world-wide-signal.png",
+  "account" : "/public/user.png",
+  "cross" : "/public/remove.png",
+  "wolf" : "/public/29dfe428d6665be9b0d4f532c9dc1644.jpg",
+  "buisness" : "/public/9c15921cf747a8dd6b4ee1faaa5b4fb0.jpg",
+  "wolf2" : "/public/5d79eb573c0643bf3b0b0952a4588234.jpg",
+  "arrow" : "/public/right-arrow.png"
+}

@@ -150,27 +150,27 @@
 "deployments": [
     {
       "name": "TIPPING POINT",
-      "picture": "./src/assets/dep1.png"
+      "picture": "/dep1.png"
     },
     {
       "name": "SWEEPING ENGAGEMENT",
-      "picture": "./src/assets/dep1.png"
+      "picture": "/dep2.png"
     },
     {
       "name": "SEARCH AND DESTROY",
-      "picture": "./src/assets/dep1.png"
+      "picture": "/dep3.png"
     },
     {
       "name": "HAMMER AND ANVIL",
-      "picture": "./src/assets/dep1.png"
+      "picture": "/dep4.png"
     },
     {
       "name": "DAWN OF WAR",
-      "picture": "./src/assets/dep1.png"
+      "picture": "/dep5.png"
     },
     {
       "name": "CRUCIBLE OF BATTLE",
-      "picture": "./src/assets/dep1.png"
+      "picture": "/dep6.png"
     }
   ]
 }
