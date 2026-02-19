@@ -1,0 +1,109 @@
+{
+  "warhammer_40k_datasheets": {
+    "thousand_sons": {
+      "characters": [
+        {"name": "Ahriman", "points_cost": 130},
+        {"name": "Daemon Prince of Tzeentch", "points_cost": 170},
+        {"name": "Daemon Prince of Tzeentch with Wings", "points_cost": 180},
+        {"name": "Exalted Sorcerer", "points_cost": 100},
+        {"name": "Exalted Sorcerer on Disc of Tzeentch", "points_cost": 105},
+        {"name": "Infernal Master", "points_cost": 90},
+        {"name": "Kairos Fateweaver", "points_cost": 270},
+        {"name": "Lord of Change", "points_cost": 260},
+        {"name": "Magnus the Red", "points_cost": 440},
+        {"name": "Sorcerer", "points_cost": 95},
+        {"name": "Sorcerer in Terminator Armour", "points_cost": 115},
+        {"name": "Tzaangor Shaman", "points_cost": 60}
+      ],
+      "battleline": [
+        {"name": "Blue Horrors", "points_cost": 125},
+        {"name": "Pink Horrors", "points_cost": 140},
+        {"name": "Rubric Marines", "points_cost": 105}
+      ],
+      "dedicated_transports": [
+        {"name": "Thousand Sons Rhino", "points_cost": 75}
+      ],
+      "other_units": [
+        {"name": "Chaos Land Raider", "points_cost": 240},
+        {"name": "Chaos Predator Annihilator", "points_cost": 130},
+        {"name": "Chaos Predator Destructor", "points_cost": 130},
+        {"name": "Chaos Spawn", "points_cost": 65},
+        {"name": "Chaos Vindicator", "points_cost": 175},
+        {"name": "Defiler", "points_cost": 190},
+        {"name": "Forgefiend", "points_cost": 135},
+        {"name": "Helbrute", "points_cost": 145},
+        {"name": "Heldrake", "points_cost": 210},
+        {"name": "Maulerfiend", "points_cost": 130},
+        {"name": "Sekhetar Robots", "points_cost": 125},
+        {"name": "Xiphon Interceptor", "points_cost": 185}
+      ]
+    },
+    "tau_empire": {
+      "characters": [
+        {"name": "Aun'Va", "points_cost": 65},
+        {"name": "Commander Shadowsun", "points_cost": 100}
+      ],
+      "battleline_infantry": [
+        {"name": "Breacher Team", "points_cost": 100},
+        {"name": "Strike Team", "points_cost": 75}
+      ],
+      "ranged_support_leaders": [
+        {"name": "Cadre Fireblade", "points_cost": 50},
+        {"name": "Commander in Coldstar Battlesuit", "points_cost": 95},
+        {"name": "Commander in Crisis Battlesuit", "points_cost": 80},
+        {"name": "Commander in Enforcer Battlesuit", "points_cost": 80},
+        {"name": "Commander Farsight", "points_cost": 105},
+        {"name": "Darkstrider", "points_cost": 60},
+        {"name": "Ethereal", "points_cost": 50}
+      ],
+      "battlesuits_and_vehicles": [
+        {"name": "Crisis Starscythe Battlesuits", "points_cost": 110},
+        {"name": "Ghostkeel Battlesuit", "points_cost": 160},
+        {"name": "Broadside Battlesuits", "points_cost": 90},
+        {"name": "Stealth Battlesuits", "points_cost": 60}
+      ],
+      "vehicles_and_flyers": [
+        {"name": "Devilfish", "points_cost": 85},
+        {"name": "Piranhas", "points_cost": 55},
+        {"name": "Tiger Shark", "points_cost": 275},
+        {"name": "Razorshark Strike Fighter", "points_cost": 160},
+        {"name": "Sky Ray Gunship", "points_cost": 140},
+        {"name": "Hammerhead Gunship", "points_cost": 145},
+        {"name": "Sun Shark Bomber", "points_cost": 150}
+      ],
+      "auxiliaries": [
+        {"name": "Tactical Drones", "points_cost": 70},
+        {"name": "Kroot Carnivores", "points_cost": 75},
+        {"name": "Kroot Farstalkers", "points_cost": 85},
+        {"name": "Kroot Hounds", "points_cost": 40},
+        {"name": "Krootox Riders", "points_cost": 35},
+        {"name": "Kroot War Shaper", "points_cost": 60}
+      ]
+    },
+    "leagues_of_votann": {
+      "characters": [
+        {"name": "Arkanyst Evaluator", "points_cost": 55},
+        {"name": "Brôkhyr Iron-master", "points_cost": 65},
+        {"name": "Einhyr Champion", "points_cost": 60},
+        {"name": "Grimnyr", "points_cost": 65},
+        {"name": "Kâhl", "points_cost": 70},
+        {"name": "Ûthar the Destined", "points_cost": 80}
+      ],
+      "battleline": [
+        {"name": "Hearthkyn Warriors", "points_cost": 100}
+      ],
+      "dedicated_transports": [
+        {"name": "Sagitaur", "points_cost": 115}
+      ],
+      "other_units": [
+        {"name": "Brôkhyr Thunderkyn", "points_cost": 85},
+        {"name": "Cthonian Beserks", "points_cost": 100},
+        {"name": "Einhyr Hearthguard", "points_cost": 160},
+        {"name": "Hekaton Land Fortress", "points_cost": 225},
+        {"name": "Hernkyn Pioneers", "points_cost": 90},
+        {"name": "Hernkyn Yaegirs", "points_cost": 80},
+        {"name": "Kapricus Defenders", "points_cost": 110}
+      ]
+    }
+  }
+}

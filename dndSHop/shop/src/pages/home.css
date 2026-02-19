@@ -1,0 +1,41 @@
+.container{
+  margin-top: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "UnifrakturCook", cursive;
+}
+.header-main input{
+  background-color:rgba(32, 29, 24, 0.709);
+  padding: 1rem;
+  width: 100%;
+  outline: none;
+  font-size: 2rem;
+  border-radius: 0.5rem;
+  border: none;
+  font-family: "UnifrakturCook", cursive;
+  color: rgb(213, 213, 213);
+}
+.general-item{
+  padding: 1rem;
+  color: rgb(213, 213, 213);
+  font-size: 2rem;
+}
+.swiper {
+  margin-top: 3rem;
+  width: 100%;
+  height: 15rem; 
+}
+.slide-content{
+  padding: 1rem;
+  background-color: rgb(213, 213, 213);
+  height: 15rem;
+  border-radius: 0.2rem;
+}
+.armor{
+  color: yellow;
+}
+.ammunition{
+  color: green;
+}

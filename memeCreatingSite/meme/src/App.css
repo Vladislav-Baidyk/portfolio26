@@ -1,0 +1,250 @@
+body{
+  min-height:100vh ;
+  width: 100%;
+  background-color: #050b1a;  
+  overflow-x: hidden;
+  padding: 0;
+  margin: 0;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  gap: 5rem;
+}
+.header{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #0c275d7f;
+  width: 100%;
+  color: rgba(255, 255, 255, 0.918);
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    height: 100rem;
+    width: 100%;
+    flex: 1;
+    gap: 10rem;
+    color:  rgba(255, 255, 255, 0.918);
+}
+.label{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15rem;
+    align-items: center;
+}
+.texts{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
+.input{
+    border: 1px solid rgba(13, 204, 242, 0.4);
+    background:  #0a15339a;
+    padding: 1rem;
+    width: 20rem;
+    outline: none;
+    color:  rgba(255, 255, 255, 0.918);
+    font-size: 1rem;
+    height: 3rem;
+    border-radius: 2rem;
+}
+.container-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-button{
+    display: flex;
+    position: relative;
+}
+.image{
+    height: 40rem;
+    width: 70rem;
+    border: 1px rgb(36, 83, 212);
+    border-style: dashed;
+    position: relative;
+}
+.image-logo{
+    height: 4rem;
+}
+.image input{
+    background: transparent;
+    border: none;
+    color:  rgba(255, 255, 255, 0.918);
+    text-decoration: underline;
+}
+.image-import{
+    height: 40rem;
+    width: 100%;
+}
+.meme-text{
+    position: absolute;
+  width: 100%;
+  left: 0;
+  text-align: center;
+  margin: 0;
+  z-index: 10;
+  pointer-events: none;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+.top{
+    top: 5%;
+}
+.bottom{
+    top: 90%;
+}
+.hide{
+    position: absolute;
+    top: 105%;
+    left: 45%;
+}
+.settings{
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
+.styles{
+    display: flex;
+    gap: 2rem;
+}
+.font{
+    border-radius:0.4rem ;
+    text-align: center;
+    padding: 1rem;
+    border: 4px solid rgb(36, 83, 212);
+    width: 4rem;
+    background-color: transparent;
+    transition: background-color 300ms ,color 300ms,border;
+}
+.font:hover{
+    background-color: rgba(255, 255, 255, 0.805);
+    color: #050b1a;
+    border: none;
+}
+.font-classic {
+  font-family: Impact, sans-serif;
+  text-transform: uppercase; 
+  letter-spacing: 1px;
+}
+.font-modern {
+  font-family: Arial, sans-serif;
+  font-weight: 900;
+}
+.font-elegant {
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+  font-weight: bold;
+}
+.font-playful {
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+.font-calibri {
+  font-family: Calibri, Candara, Segoe, "Segoe UI", sans-serif;
+  font-weight: normal;
+}   
+.colors{
+    display: flex;
+    gap: 4rem;
+}
+.white-color{
+  color: rgba(255, 255, 255, 0.918);
+}
+.color{
+    border-radius:0.4rem ;
+    text-align: center;
+    padding: 1rem;
+    border: 4px solid rgb(36, 83, 212);
+    width: 4rem;
+    background-color: transparent;
+    transition: background-color 300ms ,color 300ms,border;
+}
+.color:hover{
+    background-color: rgba(255, 255, 255, 0.805);
+    color: #050b1a;
+    border: none;
+}
+.red-color  {
+    color: rgb(161, 40, 21);
+}
+.green-color{
+    color: rgb(29, 178, 29);
+}
+.black-color{
+    color: rgb(12, 12, 12);
+}
+.text-input{
+    border: 1px solid rgba(13, 204, 242, 0.4);
+    background:  #0a15339a;
+    padding: 1rem;
+    width: 20rem;
+    outline: none;
+    color:  rgba(255, 255, 255, 0.918);
+    font-size: 1rem;
+    height: 3rem;
+    text-align: center;
+    border-radius: 2rem;
+}
+.footer{
+  width: 100%;
+  height: 5rem;
+  background-color: #0c275d7f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.918);
+
+}
+@media screen and (max-width:480px) {
+    .texts{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+    }
+    .input{
+        padding: 1rem;
+        height: 2rem;
+    }
+    .image{
+        height: 20rem;
+        width: 90vw;
+        border: 1px rgb(36, 83, 212);
+        border-style: dashed;
+        position: relative;
+    }
+    .image-import{
+        height: 20rem;
+        width: 100%;
+    }
+    .label{
+        display: flex;
+        flex-direction: column;
+        margin-top: 7rem;
+        align-items: center;
+    }
+    .styles{
+    display: flex;
+    gap: 1rem;
+}
+    .font{
+        padding: 1rem;
+        width: 2rem;
+        font-size: 0.5rem;
+    }
+    .colors{
+    display: flex;
+    gap: 1rem;
+    }
+}

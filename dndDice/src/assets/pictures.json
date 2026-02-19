@@ -1,0 +1,19 @@
+{
+    "pictures": [
+        {
+            "id" : 1,
+            "name" : "Dice",
+            "path" : "/dice.png"
+        },
+        {
+            "id" : 2,
+            "name" : "Attack",
+            "path" : "/attack.png"
+        },
+        {
+            "id" : 3,
+            "name" : "Defense",
+            "path" : "/shield.png"
+        }
+    ]
+}
